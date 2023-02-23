@@ -1,0 +1,54 @@
+.user {
+  .head {
+    h6 {
+      color: #777;
+    }
+
+    span.line {
+      width: 80%;
+      border-bottom: 2px solid #888;
+      margin-left: 1rem;
+      margin-bottom: 5px;
+    }
+  }
+
+  .user_content {
+    padding: 25px 30px;
+
+    div {
+      padding: 10px 5px;
+      border-bottom: 1px solid #444;
+    }
+
+    h4 {
+      font-weight: 800;
+    }
+
+    span {
+      color: #666;
+      font-weight: 300;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .avatar {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .user .user_content {
+    h4 {
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    span {
+      color: #666;
+      font-weight: 300;
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,222 @@
+.news {
+  margin: 50px 0;
+
+  .head {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0859a4;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+
+    &::before {
+      width: 28px;
+      height: 10px;
+      display: block;
+      content: "";
+      position: absolute;
+      bottom: 1px;
+      left: 50%;
+      margin-left: -14px;
+      background-color: #0859a4;
+    }
+
+    &::after {
+      width: 100px;
+      height: 2px;
+      display: block;
+      content: "";
+      position: relative;
+      margin-top: 20px;
+      left: 50%;
+      margin-left: -50px;
+      background-color: #0859a4;
+    }
+  }
+
+  .post {
+    background-color: #eee;
+    width: 70%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 20px 0px #8fc0f740;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    &:hover {
+      box-shadow: 0 0 20px 0px #8fc0f7;
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+    }
+
+    .title {
+      color: #0859a4;
+    }
+
+    .post__image img {
+      border-bottom-left-radius: 15px;
+      border-top-left-radius: 15px;
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+
+    .caption {
+      color: #444;
+    }
+
+    .date {
+      color: #777;
+    }
+  }
+}
+
+.news-head__text {
+  h4 {
+    color: #333;
+  }
+  p {
+    color: #666;
+  }
+}
+
+.paginationBtns {
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  list-style: none;
+  margin-top: 30px;
+
+  a {
+    padding: 7px 13px;
+    background-color: #0859a4;
+    color: #fff !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    &:hover {
+      background-color: #8fc0f7;
+    }
+  }
+}
+
+.form {
+  position: relative;
+  margin: auto;
+  max-width: 500px;
+  box-shadow: 0 0 5px 0 #8898a787;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: rgb(246, 246, 246);
+
+  .title,
+  textarea {
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #8fc0f741;
+    caret-color: #0859a4;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input::file-selector-button {
+    display: none;
+  }
+
+  button {
+    width: fit-content;
+  }
+
+  #btn {
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    color: #969696dc;
+  }
+
+  .image-file {
+    cursor: pointer;
+    border: 2px dashed #8fc0f7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}
+
+.del-icon {
+  color: #8fc0f7;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+
+  &:hover {
+    color: rgb(255, 85, 85);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .news .post {
+    width: 80%;
+  }
+  .news-head__text {
+    text-align: center;
+  }
+  .post__image img {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .news .head {
+    font-size: 30px;
+  }
+
+  .news .post {
+    width: 90%;
+  }
+}

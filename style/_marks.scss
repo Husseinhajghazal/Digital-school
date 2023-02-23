@@ -1,0 +1,65 @@
+.marks {
+  .head {
+    h6 {
+      color: #777;
+    }
+
+    span {
+      width: 80%;
+      border-bottom: 2px solid #888;
+      margin-left: 1rem;
+      margin-bottom: 5px;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    max-width: 900px;
+    width: 100%;
+    font-size: 0.9rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    overflow: hidden;
+
+    thead tr {
+      background-color: #61b0f9;
+      color: #fff;
+      text-align: left;
+    }
+
+    th,
+    td {
+      padding: 12px 15px;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #ddd;
+    }
+
+    tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+
+    tbody tr:last-child {
+      border-bottom: 2px solid #61b0f9;
+    }
+
+    .success {
+      color: #30c849;
+    }
+
+    .faild {
+      color: #f96161;
+    }
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .marks table {
+    font-size: 0.7rem;
+  }
+}

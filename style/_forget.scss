@@ -1,0 +1,37 @@
+.forget .row {
+  min-height: 100vh;
+
+  h1 {
+    color: #145da0;
+  }
+
+  form {
+    width: 75%;
+  }
+
+  .question {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+
+  .question:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .forget .row form {
+    width: 90%;
+
+    .form__text {
+      font-size: 10px;
+    }
+  }
+}
