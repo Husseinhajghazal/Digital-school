@@ -1,3 +1,3 @@
 # Digital-school
 
-Link: https://online-school-b81a9.firebaseapp.com/login
+Link: https://digital-school-d3f59.web.app/login
