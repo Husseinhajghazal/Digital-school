@@ -40,3 +40,20 @@ To run the application locally, you can follow these steps:
 Alternatively, you can access the live demo of the application at https://digital-school-d3f59.web.app/login.
 
 Note: This project is intended for learning purposes only and is not meant for commercial use.
+
+## to use it here it is some fake accounts:
+
+Ids of admins: 
+4
+Ids of teachers: 
+101,102
+Ids of students: 
+1000,1001,1002,1003,1004,1005,1006,1007
+Chose any id to try the website, knowing that all the  users password is "Test1234".
+
+
+Classes ids to control and edit some features: 
+10002,10003
+
+Exams ids to control and edit some features:
+1,2,3
