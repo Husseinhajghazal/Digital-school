@@ -39,7 +39,7 @@ To run the application locally, you can follow these steps:
 
 Alternatively, you can access the live demo of the application at https://digital-school-d3f59.web.app/login.
 
-## to use it here it is some fake accounts:
+## To use it here it is some fake accounts:
 
 Ids of admins: 
 4
