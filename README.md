@@ -39,8 +39,6 @@ To run the application locally, you can follow these steps:
 
 Alternatively, you can access the live demo of the application at https://digital-school-d3f59.web.app/login.
 
-Note: This project is intended for learning purposes only and is not meant for commercial use.
-
 ## to use it here it is some fake accounts:
 
 Ids of admins: 
@@ -57,3 +55,5 @@ Classes ids to control and edit some features:
 
 Exams ids to control and edit some features:
 1,2,3
+
+Note: This project is intended for learning purposes only and is not meant for commercial use.
